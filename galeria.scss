@@ -1,0 +1,84 @@
+
+body{
+
+    #fx{
+        height: 20px;
+        background-color: yellow;
+        margin-bottom: 15px;
+    }
+   
+    .carousel-inner{
+        height: 35em;
+      
+    }
+    #cr1{
+        background-image: url(teste.imagens/1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr2{
+        background-image: url(teste.imagens/2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    
+    }
+    #cr3{
+        background-image: url(teste.imagens/3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr4{
+        background-image: url(teste.imagens/4.jfif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr5{
+        background-image: url(teste.imagens/5.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+    #cr6{
+        background-image: url(teste.imagens/6.jfif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr7{
+        background-image: url(teste.imagens/7.jfif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr8{
+        background-image: url(teste.imagens/8.jfif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr9{
+        background-image: url(teste.imagens/9.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    #cr10{
+        background-image: url(teste.imagens/10.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    footer #rd {
+        height: 25px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
