@@ -1,0 +1,358 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header .inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  height: 70px;
+}
+body header img {
+  width: 60px;
+  margin-left: 100px;
+}
+body #pesquisar {
+  border-radius: 8px;
+  height: 35px;
+  width: 300px;
+  margin-right: 50px;
+  outline: none;
+}
+body #fx {
+  background-color: rgb(255, 255, 0);
+  height: 30px;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body main section {
+  background-image: url(imagens/2015-Ducati-Scrambler-Icon-middle2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 150%;
+}
+body article {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+body h1 {
+  font-size: 60px;
+}
+body h2 {
+  font-size: 40px;
+}
+body p > .descricao {
+  width: 500px;
+}
+body .faixa {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 5px;
+  border-color: yellow;
+  border-style: solid;
+  width: 200px;
+}
+body fieldset {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 0px;
+}
+body .descricao {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+body #imagem-descricao {
+  width: auto;
+  height: 300px;
+  padding-left: 200px;
+}
+body .img-seguranca {
+  width: auto;
+  height: 400px;
+}
+body .LOCALIZACAO > iframe {
+  width: 400px;
+  height: 300px;
+}
+body form {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+body .formulario > .caixa {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  height: 20px;
+}
+body #bn, body #bnn {
+  margin-bottom: 40px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+body #menssagem {
+  height: 130px;
+}
+body section > .seguranca {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  border-top: 20px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: yellow;
+}
+body .performance {
+  margin-left: 200px;
+}
+body .performance > p {
+  width: auto;
+}
+body h3 {
+  font-size: 35px;
+  color: black;
+}
+body .caracteristicas {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .luzes, body .ergonomia, body .rodas, body .experiencia, body .detalhes, body .motor > p {
+  color: #8c8c8c;
+  width: 350px;
+}
+body .luzes > img {
+  width: 350px;
+  height: 200px;
+}
+body .ergonomia > img {
+  width: 350px;
+  height: 200px;
+}
+body .rodas > img {
+  width: 350px;
+  height: 200px;
+}
+body .tecnologia {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .experiencia > img {
+  width: 350px;
+  height: 200px;
+}
+body .detalhes > img {
+  width: 350px;
+  height: 200px;
+}
+body .motor > img {
+  width: 350px;
+  height: 200px;
+}
+body .tecnica {
+  border-bottom: 1px solid #fcfcfc;
+}
+body hr {
+  color: #cccccc;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body .ficha {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+body .tec1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+body .tec2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 520px;
+  align-items: center;
+}
+body .tec3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 430px;
+  align-items: center;
+}
+body .tec4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 400px;
+  align-items: center;
+}
+body .tec5 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 530px;
+  align-items: center;
+}
+body .tec6 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 520px;
+  align-items: center;
+}
+body .tec7 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 510px;
+  align-items: center;
+}
+body footer {
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer img {
+  margin-left: 15px;
+  height: 30px;
+}
+body footer .rodape {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 576px) {
+  body main section {
+    background-position: center;
+    padding-bottom: 1px;
+    height: auto;
+  }
+}
+@media (max-width: 576px) {
+  body header img {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  #desc {
+    flex-direction: column;
+    width: 50%;
+  }
+  #imagem-descricao {
+    margin-right: 100px;
+    width: 300px;
+  }
+}
+@media (max-width: 576px) {
+  body section > .seguranca {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  body h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  body .performance > p {
+    padding: 0px;
+  }
+}
+@media (max-width: 576px) {
+  body .caracteristicas {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 576px) {
+  body .tecnologia {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 576px) {
+  body .performance {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec1 {
+    display: block;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec3 {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec4 {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec5 {
+    display: block;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec6 {
+    display: block;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body .tec7 {
+    display: block;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body form {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
